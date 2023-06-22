@@ -11,4 +11,9 @@ def main():
 
 
 if __name__ == '__main__':
-    print(main())
+    total, num_male, num_fem, m_perc, f_perc = main() 
+    print (f'Calculating Total students within classroom \t {total: .2f}')
+    print (f'Calculating male students in class \t {num_male: .2f}')
+    print (f'Calculating female students in class \t {num_fem: .2f}')
+    print (f'Calculating female percentages within classroom \t {f_perc: .2f}')
+    print (f'Calculating male percentages within classroom \t {m_perc: .2f}')
